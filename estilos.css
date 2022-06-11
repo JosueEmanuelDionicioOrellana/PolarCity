@@ -227,7 +227,7 @@ body{
 }
 
 #product1 .pro .des i{
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(243, 181, 25);
 
 }
@@ -529,6 +529,10 @@ footer h4{
     
 }
 
+#prodetails img{
+    width:100%;
+}
+
 #prodetails .single-pro-details h4{
     padding: 40px 0 20px 0;
 }
@@ -544,6 +548,7 @@ footer h4{
     padding-left: 10px;
     font-size: 16px;
     margin-right: 10px;
+    
 
 } 
 
