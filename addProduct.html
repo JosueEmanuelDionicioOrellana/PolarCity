@@ -53,16 +53,16 @@
             <h1>Agregar producto</h1>
             <h3>Nombre</h3>
             <div>
-                <input type="text" placeholder="Escriba el nombre del producto">
+                <input type="text" id="nombre" placeholder="Escriba el nombre del producto">
             </div>
             <h3>Precio</h3>
             <div>
-                <input type="number" placeholder="Escriba el precio del producto">
+                <input type="number" id="precio" placeholder="Escriba el precio del producto">
             </div>
             <h3>Descripción</h3>
             <div>
 
-                <textarea name="" id="" cols="30" rows="10">Escriba la descripción del producto</textarea>
+                <textarea name="" id="descrip" cols="30" rows="10" placeholder="Escriba la descripción del producto"></textarea>
             </div>
         </div> 
        
@@ -75,10 +75,10 @@
             </div>
             <h3>Imagen</h3>
             <div>
-                <input type="file" id="exist" placeholder="Escriba la existencia del producto">
+                <input type="file" id="exist" placeholder="">
             </div>
             <div>
-                <button>Agregar producto</button>
+                <button id="botonAgregar" onclick="agregarProducto()">Agregar producto</button>
             </div>
         </div>
     </section class="section-p1">
@@ -140,6 +140,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="appAddProduct.js"></script>
 </body>
 </html>
